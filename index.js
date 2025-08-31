@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.send('Bienvenue sur l\'application Collecte des Retours Utilisateurs');
+    res.send('Bienvenue sur l\'application de collecte des retours utilisateurs');
 });
 
 app.listen(PORT, () => {
